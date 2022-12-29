@@ -31,7 +31,8 @@ namespace AplikasiTesOnline
                 connection.Open();
                 MySqlCommand command = new MySqlCommand(query, connection);
                 MySqlDataReader reader = command.ExecuteReader();
-                data.Load(reader)
+                data.Load(reader);
+                return data;
 
             } catch (MySqlException e)
             {
