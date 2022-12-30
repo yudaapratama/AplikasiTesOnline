@@ -66,6 +66,7 @@
             // 
             this.txtPass.Location = new System.Drawing.Point(6, 65);
             this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(230, 20);
             this.txtPass.TabIndex = 3;
             // 
@@ -112,6 +113,7 @@
             this.btnView.TabIndex = 2;
             this.btnView.Text = "Lihat Data";
             this.btnView.UseVisualStyleBackColor = true;
+            this.btnView.Click += new System.EventHandler(this.btnView_Click);
             // 
             // Form1
             // 
@@ -121,6 +123,7 @@
             this.Controls.Add(this.btnView);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -163,7 +163,6 @@ namespace AplikasiTesOnline
             txtPass.Enabled = true;
             txtConfirmPass.Enabled = true;
             btnBack.Enabled = true;
-            btnView.Enabled = true;
             btnRegister.Enabled = true;
         }
 
@@ -174,7 +173,6 @@ namespace AplikasiTesOnline
             txtPass.Enabled = false;
             txtConfirmPass.Enabled = false;
             btnBack.Enabled = false;
-            btnView.Enabled = false;
             btnRegister.Enabled = false;
         }
     }

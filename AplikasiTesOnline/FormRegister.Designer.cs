@@ -29,17 +29,16 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.txtPass = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtConfirmPass = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtAge = new System.Windows.Forms.TextBox();
             this.btnRegister = new System.Windows.Forms.Button();
+            this.txtAge = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtConfirmPass = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtPass = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.btnBack = new System.Windows.Forms.Button();
-            this.btnView = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -60,70 +59,6 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(91, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Username / Email";
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(9, 29);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(228, 20);
-            this.txtEmail.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 52);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(53, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Password";
-            // 
-            // txtPass
-            // 
-            this.txtPass.Location = new System.Drawing.Point(9, 68);
-            this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(228, 20);
-            this.txtPass.TabIndex = 3;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(6, 91);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(114, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Confirmation Password";
-            // 
-            // txtConfirmPass
-            // 
-            this.txtConfirmPass.Location = new System.Drawing.Point(9, 107);
-            this.txtConfirmPass.Name = "txtConfirmPass";
-            this.txtConfirmPass.Size = new System.Drawing.Size(228, 20);
-            this.txtConfirmPass.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(6, 130);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(26, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Age";
-            // 
-            // txtAge
-            // 
-            this.txtAge.Location = new System.Drawing.Point(9, 146);
-            this.txtAge.Name = "txtAge";
-            this.txtAge.Size = new System.Drawing.Size(228, 20);
-            this.txtAge.TabIndex = 7;
-            // 
             // btnRegister
             // 
             this.btnRegister.Location = new System.Drawing.Point(9, 172);
@@ -134,24 +69,81 @@
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
+            // txtAge
+            // 
+            this.txtAge.Location = new System.Drawing.Point(9, 146);
+            this.txtAge.Name = "txtAge";
+            this.txtAge.Size = new System.Drawing.Size(228, 20);
+            this.txtAge.TabIndex = 7;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 130);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(26, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Age";
+            // 
+            // txtConfirmPass
+            // 
+            this.txtConfirmPass.Location = new System.Drawing.Point(9, 107);
+            this.txtConfirmPass.Name = "txtConfirmPass";
+            this.txtConfirmPass.PasswordChar = '*';
+            this.txtConfirmPass.Size = new System.Drawing.Size(228, 20);
+            this.txtConfirmPass.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 91);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(114, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Confirmation Password";
+            // 
+            // txtPass
+            // 
+            this.txtPass.Location = new System.Drawing.Point(9, 68);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(228, 20);
+            this.txtPass.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 52);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(53, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Password";
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(9, 29);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(228, 20);
+            this.txtEmail.TabIndex = 1;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 13);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(91, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Username / Email";
+            // 
             // btnBack
             // 
-            this.btnBack.Location = new System.Drawing.Point(12, 219);
+            this.btnBack.Location = new System.Drawing.Point(11, 219);
             this.btnBack.Name = "btnBack";
-            this.btnBack.Size = new System.Drawing.Size(119, 23);
+            this.btnBack.Size = new System.Drawing.Size(243, 23);
             this.btnBack.TabIndex = 1;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = true;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
-            // 
-            // btnView
-            // 
-            this.btnView.Location = new System.Drawing.Point(137, 219);
-            this.btnView.Name = "btnView";
-            this.btnView.Size = new System.Drawing.Size(111, 23);
-            this.btnView.TabIndex = 2;
-            this.btnView.Text = "Lihat Data";
-            this.btnView.UseVisualStyleBackColor = true;
             // 
             // FormRegister
             // 
@@ -159,9 +151,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(266, 247);
-            this.Controls.Add(this.btnView);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormRegister";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
@@ -185,6 +177,5 @@
         private System.Windows.Forms.TextBox txtAge;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnBack;
-        private System.Windows.Forms.Button btnView;
     }
 }

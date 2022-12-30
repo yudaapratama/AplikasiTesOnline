@@ -109,5 +109,13 @@ namespace AplikasiTesOnline
             txtEmail.Text = "";
             txtPass.Text = "";
         }
+
+        private void btnView_Click(object sender, EventArgs e)
+        {
+            Form form = new FormView();
+            Hide();
+            form.ShowDialog();
+            Show();
+        }
     }
 }
